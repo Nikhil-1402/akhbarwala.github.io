@@ -1,0 +1,37 @@
+.more-blog-p h2{
+    color: #222;
+    margin-bottom: 10%;
+}
+.more-blog-p .card{
+    height: auto !important;
+}
+/* .more-blog-p .card:hover{
+    box-shadow: 1px 1px 15px #ccc;
+} */
+@media (max-width:767px) {
+    .tags{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:575px) {
+    .more-blog-p .card{
+        max-width: 400px !important;
+        margin: auto;
+    }
+    .more-blog-p .card img{
+        height: 250px;
+    }
+}
+@media (max-width:440px) {
+    .more-blog-p .card .card-body{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .more-blog-p .card img{
+        height: auto !important;
+        margin-top: 0px !important;
+    }
+    .more-blog-p .card-body h4{
+        font-size: 22px !important; 
+    }
+}
